@@ -1,5 +1,5 @@
 # base image
-FROM cypress/browsers:chrome65-ff57
+FROM cypress/browsers:node12.8.1-chrome78-ff70
 
 # set working directory
 RUN mkdir /usr/src/app

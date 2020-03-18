@@ -9,4 +9,4 @@ docker-compose run --name='baseline' cypress ./node_modules/.bin/cypress run \
 --config baseUrl=http://127.0.0.1 --env updateSnapshots=true
 
 # Copy the baseline snapshots files to local
-docker cp baseline:/usr/src/app/cypress/snapshots cypress/snapshots
+docker cp baseline:/usr/src/app/cypress/snapshots cypress
